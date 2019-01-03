@@ -5,4 +5,4 @@
 
 
 ### Your Code Here ###
-puts "The author is " + (((((1160_000_000/60)/60)/24)/365).to_s + " years old"
+puts "The author is " + ((((1160_000_000/60)/60)/24)/365).to_s + " years old"
