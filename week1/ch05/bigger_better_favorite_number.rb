@@ -4,3 +4,6 @@
 
 
 ### Your Code Here ###
+puts "What is your favorite number?"
+number = gets
+puts "It should be " + (number + 1)
