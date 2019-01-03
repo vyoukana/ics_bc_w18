@@ -9,4 +9,4 @@ berkeley_days = 55067
 days_to_hours =  berkeley_days * 24
 hours_to_min = days_to_hours * 60
 min_to_sec = hours_to_min * 60
-puts "Berkeley is" min_to_sec "seconds old"
+puts "Berkeley is" (((55067*24)*(60))*60) "seconds old!"
