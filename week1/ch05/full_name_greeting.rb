@@ -4,3 +4,9 @@
 
 
 ### Your Code Here ###
+puts "What is your name?"
+first = gets.chomp
+middle = gets.chomp
+last = gets.chomp
+
+puts "Nice to meet you " + first + middle + last + "!"

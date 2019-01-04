@@ -6,4 +6,4 @@
 ### Your Code Here ###
 puts "What is your favorite number?"
 number = gets
-puts "It should be " + (number + 1)
+puts "It should be " + (number.to_i + 1).to_s 
