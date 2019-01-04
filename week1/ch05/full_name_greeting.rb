@@ -4,9 +4,13 @@
 
 
 ### Your Code Here ###
-puts "What is your name?"
-first = gets.chomp
-middle = gets.chomp
-last = gets.chomp
+puts "What is your first name?"
+first = gets
+
+puts "Middle?"
+middle = gets
+
+puts "Last?"
+last = gets
 
 puts "Nice to meet you " + first + middle + last + "!"
